@@ -1,0 +1,11 @@
+.otz_a{
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-image: url(https://github.com/Konstantinll/Bachata/blob/main/src/Pictures/bg_feedback/bg_feedback_a.jpg?raw=true)
+}
+.carousel_item{
+    width: 100% !important;
+}

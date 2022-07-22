@@ -1,0 +1,154 @@
+/* Классы div блоков */
+.futer {
+  width: 100%;
+  background-color: #212529;
+  padding: 2em;
+  color: #fff;
+}
+.Navok{
+  height: 80px;
+}
+.zadnik {
+  width: 100%;
+  background-image: url(https://sun9-66.userapi.com/impf/c841224/v841224564/6df9a/cynQCKvsDyU.jpg?size=1500x1000&quality=96&sign=7be857cb0a51dc396966532520e76843&type=album);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.perednik {
+  width: 100%;
+  padding-top: 10vh;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 5vh;
+  background-color: rgb(255, 255, 255)
+}
+.kart {
+  display: flex;
+  height: 400px;
+  width: 350px;
+  padding: 30px;
+  margin-top: 10vh;
+  position: relative;
+  justify-content: center;
+  box-shadow: 0px 3px 10px 1px rgba(13, 202, 240, 0.5);
+}
+.kart2 {
+  width: 600px;
+  text-align: center;
+  background-color: #fff;
+  padding: 30px;
+  margin-left: 30px;
+}
+.andrei {
+  height: 500px;
+  width: 400px;
+  background-size: cover;
+  margin-bottom: 30px;
+  box-shadow: 0px 3px 10px 1px rgba(13, 202, 240, 0.5);
+  margin-bottom: 10vh;
+  background-image: url(https://github.com/Konstantinll/Bachata/blob/main/src/Pictures/bg_picture/Andrey_d.jpg?raw=true);
+}
+.tatiyana {
+  height: 500px;
+  width: 400px;
+  background-size: cover;
+  box-shadow: 0px 3px 10px 1px rgba(13, 202, 240, 0.5);
+  margin-bottom: 10vh;
+  background-image: url(https://github.com/Konstantinll/Bachata/blob/main/src/Pictures/bg_picture/Tatyana_d.jpg?raw=true);
+}
+.colu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.colu5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: left;
+}
+.centura {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.block_blog_l {
+  width: 25vw;
+  align-items: center;
+}
+.block_blog_r {
+  width: 50vw;
+  align-items: center;
+}
+.margi_block {
+  margin-bottom: 30px;
+}
+/* Классы текстовых блоков */
+.zagolovok1 {
+  font-size: 28px;
+  font-family: Montserrat;
+  text-align: center;
+  margin-bottom: 12vh;
+}
+.zagolovok2 {
+  text-align: center;
+  font-size: 38px;
+  font-family: Montserrat;
+  margin-bottom: 12vh;
+}
+.zagolovok3 {
+  text-align: center;
+  font-size: 18px;
+  font-family: Montserrat;
+  margin-bottom: 5vh;
+}
+.pstr{
+  padding-top: 5vh;
+}
+.texpa{
+  padding-bottom: 5vh;
+}
+.icotex{
+  width: 200px;
+  text-align: center;
+  margin-top: 30px;
+}
+.stexl{ 
+  border-right: 2px solid #0dcaf0;
+  max-width: 400px;
+  padding-right: 20px;
+}
+.stexr{
+  border-left: 2px solid #0dcaf0;
+  max-width: 400px;
+  padding-left: 20px;
+}
+.nali{
+  color: #fff !important;
+}
+.nali:hover{
+  color: #0dcaf0 !important;
+}
+/* Ссылки и кнопки */
+.ac {
+  color: #fff !important;
+  text-decoration:none
+}
+.ac:hover{
+  color:#0dcaf0 !important;
+}
+.bat{
+  padding: 0.8em 2em;
+  border-radius: 2px;
+  background-color:#0dcaf0;
+  border: 0px;
+  box-shadow: 0px 3px 10px 1px rgba(13, 202, 240, 0.5);
+}
+.bat:active {
+  border: 0px;
+  box-shadow: 0px 0px 0px 0px rgba(13, 202, 240, 0.5);
+  }
+.inp {
+  width: 350px;
+}

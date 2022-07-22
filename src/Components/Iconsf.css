@@ -1,0 +1,43 @@
+.dance {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url(https://psv4.vkuseraudio.net/s/v1/d/XKyAW1PtCNVavaxHDAjZMW_tThuBh78DCc6XwLYvhNXnBp3OS0asrRl0RaTjPogVvXLcS5u-rVydyniGSYveFfmJDY7UBSPnToiidPrX6BWNlBZcZejF1g/dance1.png);
+  }
+  .dancing {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url(https://psv4.userapi.com/c534536/u191331051/docs/d51/06d02906a254/man-dancing1.png?extra=tRkO0A5jOp5prk5p_3UCZCfcIFwJUHFyv-HweoMPYOVaxVhGQFsi6kO33Xn44ELO97nCG9Mc03DDx93CEfoNUxuBbCHrtuLeWv8oSjfJt0f6QRkDid0TDebo_mEqRKopzxvKL7a7HyoqdNMFoKYSR-Sisfc);
+  }
+  .music {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url(https://psv4.userapi.com/c534536/u191331051/docs/d41/a8787bd811b2/music2.png?extra=zxygP_xzT4n4ncR6MI3OmeauffJsHOgjWOFWMOqElCtNFveG5xULBXLarlxK5TKdFJbGkkz4KXunXAVMWCG33VYhNwVxouZ6l57mksVW29Ush-mWDsuzH0QIopzYxyCFxOrrT19m0n0eQmpRWh8NsRspeqg);
+  }
+  .ear {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url(https://sun9-48.userapi.com/impf/NC4_5gjUvPvHUo7h5543o68oKFrjpUdrp_Zglw/8Ebt2q1MweA.jpg?size=512x530&quality=96&sign=9b042f33784c2669b86034a0df73c40d&type=album);
+  }
+  .foot {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url(https://psv4.userapi.com/c534536/u191331051/docs/d15/58b870d35c33/footprints1.png?extra=HQ19mMyiAmhi93j5FeXPcO5NGv2uIA_lI2HN226d2LLFXLHIFyrfrNyEVGlHKB1XQ3Lrs5vkWIevcRufK5KW6Z9-ci0ZSGM29Ta-RW7ucyNN3jWn4grh-Bul1k_eVN9nohWY8JD5H22stN26J1L0YryqSGE);
+  }
+  .more {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url(https://psv4.userapi.com/c534536/u191331051/docs/d40/52927e06a64d/more.png?extra=eHNfDw8TPdroI4pBEEwNM8Dm7pM-WdlWqB5_fOX-UUAC_KH8mczmQjZm3OFkk-pC9m6C0yRGE8MTz3zp3cTWjF95eN4bGgGkE_v_LtswQRvSdU8dPRUuIAPUEuY085oPzR8gFkm2djVykv3_mU3WWnotPdw);
+  }
+  .bot{
+    width: 100%;
+    padding-top: 10vh;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(255, 255, 255)
+  }
