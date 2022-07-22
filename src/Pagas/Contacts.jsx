@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Col, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 
 export default class Contacts extends Component {
