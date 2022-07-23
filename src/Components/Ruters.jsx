@@ -10,11 +10,11 @@ const Ruters = () => {
   return (
 
     <Routes>
-      <Route exact path='/#/' element={<Tanec />} />
-      <Route exact path='/#/prepod' element={<Prepod />} />
-      <Route exact path='/#/raspis' element={<Raspis />} />
-      <Route exact path='/#/contacts' element={<Contacts />} />
-      <Route exact path='/#/blog' element={<Blog />} />
+      <Route exact path='/' element={<Tanec />} />
+      <Route exact path='/prepod' element={<Prepod />} />
+      <Route exact path='/raspis' element={<Raspis />} />
+      <Route exact path='/contacts' element={<Contacts />} />
+      <Route exact path='/blog' element={<Blog />} />
     </Routes>
 
   )

@@ -24,11 +24,11 @@ export default class Header extends Component {
             <Navbar.Toggle aria-controls='resposive-navbar-nav' />
             <Navbar.Collapse id='resposive-navbar-nav'>
               <Nav className="justify-content-center flex-grow-1">
-                <Nav.Link className="nali" href="/">Пробное занятие</Nav.Link>
-                <Nav.Link className="nali" href="/prepod">Преподаватели</Nav.Link>
-                <Nav.Link className="nali" href="/raspis">Расписание</Nav.Link>
-                <Nav.Link className="nali" href="/contacts">Контакты</Nav.Link>
-                <Nav.Link className="nali" href="/blog">Блог</Nav.Link>
+                <Nav.Link className="nali" href="/#/">Пробное занятие</Nav.Link>
+                <Nav.Link className="nali" href="/#/prepod">Преподаватели</Nav.Link>
+                <Nav.Link className="nali" href="/#/raspis">Расписание</Nav.Link>
+                <Nav.Link className="nali" href="/#/contacts">Контакты</Nav.Link>
+                <Nav.Link className="nali" href="/#/blog">Блог</Nav.Link>
               </Nav>
               <Form className="d-flex inp">
                 <FormControl
