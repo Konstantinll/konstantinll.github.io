@@ -12,13 +12,13 @@ export default class Header extends Component {
             <Navbar.Brand href='/'>
               <div className="colu">
                 <img
-                  src='https://3.downloader.disk.yandex.ru/preview/da37acfce789ddaa58cff48f33b56988d3aba7ec14f9f53013ddadae4279db67/inf/a1YPjMRgc3toY7RTs3d8g7UUyn70PS3UDv7dtc-6rbW4rp_4gxYDAPdh_yzWlNNz84R0x9DkvKsVuycGhpgSJw%3D%3D?uid=468161793&filename=3565.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=468161793&tknv=v2&size=1920x907'
+                  src='https://github.com/Konstantinll/konstantinll.github.io/blob/master/src/Pictures/bg_icons/logo.png?raw=true'
                   height='50'
                   width='50'
                   className='d-inline-block align-top'
                   alt='Logo'
                 />
-                <div>Школа бачаты</div>
+                <div className="deskriplog">Школа бачаты</div>
               </div>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls='resposive-navbar-nav' />

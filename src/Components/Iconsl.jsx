@@ -8,7 +8,7 @@ const Iconsl = () => {
             <div className="texpa">
                 <div className="colu">
                     <div className="centura">
-                        <div className="profi"></div>
+                        <div className="profiyou"></div>
                         <div>
                             <p className="icotex">
                                 Учим с 0 до Pro
