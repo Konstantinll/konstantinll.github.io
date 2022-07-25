@@ -4,7 +4,7 @@ import Prepod from "../Pagas/Prepod";
 import Raspis from "../Pagas/Raspis";
 import Blog from "../Pagas/Blog";
 import Contacts from "../Pagas/Contacts";
-import { BrowserRouter as Rourer, Routes, Route } from "react-router-dom";
+import { HashRouter as Rourer, Routes, Route } from "react-router-dom";
 
 const Ruters = () => {
   return (
