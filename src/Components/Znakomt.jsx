@@ -9,17 +9,16 @@ const Znakomt = () => {
             <div className="colu">
                 <div className="kart3">
                     <div className="lico1"></div>
-                    <div>
+                    
                         <h3 className="zagolovok3">Андрей</h3>
                         <p>
                             Танцую уже 16 лет.
-                        </p>
-                        <p>
+
                             Обучаю танцам 6 лет.
                         </p>
-                    </div>
+                    
                     <div>
-                        <Button variant="outline-info">Узнать лучше</Button>
+                        <Button className="bat_с" variant="outline-info">Узнать лучше</Button>
                     </div>
                 </div>
                 <div className="kart3">
@@ -34,7 +33,7 @@ const Znakomt = () => {
                         </p>
                     </div>
                     <div>
-                        <Button variant="outline-info">Узнать лучше</Button>
+                        <Button className="bat_с" variant="outline-info">Узнать лучше</Button>
                     </div>
                 </div>
             </div>

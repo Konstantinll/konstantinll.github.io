@@ -4,7 +4,7 @@ import './Iconsf.css'
 const Iconsf = () => {
     return (
         <div className="bot">
-            <h2 className="zagolovok2" id="1n">На занятии Вы узнаете</h2>
+            <h2 className="zagolovok2 mb-5" id="1n">На занятии Вы узнаете</h2>
             <div className="texpa">
                 <div className="colu">
                     <div className="centura">

@@ -26,7 +26,7 @@ export default class Header extends Component {
               <Nav className="justify-content-center flex-grow-1">
                 <Nav.Link className="nali" href="/#/">Пробное занятие</Nav.Link>
                 <Nav.Link className="nali" href="/#/prepod">Преподаватели</Nav.Link>
-                <Nav.Link className="nali" href="/#/raspis">Расписание</Nav.Link>
+                <Nav.Link className="nali" href="/#/abon">Абонементы</Nav.Link>
                 <Nav.Link className="nali" href="/#/contacts">Контакты</Nav.Link>
                 <Nav.Link className="nali" href="/#/blog">Блог</Nav.Link>
               </Nav>
@@ -34,9 +34,9 @@ export default class Header extends Component {
                 <FormControl
                   type='phone'
                   placeholder='+7(___)-__-__'
-                  className="me-2"
+                  className="me-2 bat_inp"
                 />
-                <Button style={{ width: '300px' }} variant="outline-info">Перезвоните мне</Button>
+                <Button className="bat_b" variant="outline-info">Перезвоните мне</Button>
               </Form>
             </Navbar.Collapse>
           </Container>

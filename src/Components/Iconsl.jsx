@@ -4,7 +4,7 @@ import './Iconsl.css'
 const Iconsl = () => {
     return (
         <div className="perednik">
-            <h2 className="zagolovok2" id="3n">Польза от танцев с нами</h2>
+            <h2 className="zagolovok2  mb-5" id="3n">Польза от танцев с нами</h2>
             <div className="texpa">
                 <div className="colu">
                     <div className="centura">

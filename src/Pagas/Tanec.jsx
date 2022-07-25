@@ -16,23 +16,25 @@ export default class Tanec extends Component {
                 <div className="first">
                     <Container>
                         <div className="kart2">
-                            <div className="colu6">
-                                <h1 className="zagolovok1">Школа бачаты в Санкт-Петербурге<br /> Запишитесь на пробный танец в воскресенье</h1>
 
-                                <div className="zagolovok3">
-                                    <div className="colu">
-                                        <div>
-                                            Всего за
+                            <h1 className="zagolovok1">Школа бачаты в Санкт-Петербурге<br /> Запишитесь на пробный танец в воскресенье</h1>
+                            <div>Пробное занятие отличный вариант для тех, кто хочет попробовать танцевать бачату. Приходи на пробное занятие и за 2 часа ты точно поймёшь твой ли это танец!</div>
+                            <div className="f_text">
+                                <div className="colu">
+                                    <div>
+                                        Всего за
+                                    </div>
+                                    <div>
+                                        <div className="zena_a">
+                                            500₽
                                         </div>
-
-                                        <div style={{ color: '#ff2400' }}>
-                                            200р
-                                        </div>
-                                        <div style={{ textDecoration: 'line-through' }} >
-                                            500р
+                                        <div className="zena_b">
+                                            200₽
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                            <div>
                                 <button className="bat" type="submit">Записаться</button>
                             </div>
                         </div>
@@ -42,7 +44,7 @@ export default class Tanec extends Component {
                     <Container>
                         <Iconsf />
                         <div className="perednik">
-                            <h2 className="zagolovok2" id="2n">Также на наши занятия</h2>
+                            <h2 className="zagolovok2  mb-5" id="2n">Также на наши занятия</h2>
                             <div className="colu">
                                 <div style={{ width: '800px' }}>
                                     <Carousel variant="dark">
@@ -66,16 +68,18 @@ export default class Tanec extends Component {
 
                                     </Carousel>
                                 </div>
-                                <div className="stexr">
-                                    <p>
-                                        Необязательно приходить со своим партнером/партнершей.
-                                        Во время урока партнеры переходят по кругу от одной партнерши к другой, и потанцевать в паре есть возможность у каждого.
-                                    </p>
-                                    Бачата - это не просто танец, также это общение, флирт, подтянутое тело,
-                                    возможность уже через месяц зажигать на вечеринках или пойти дальше:
-                                    участвовать в шоу-номерах и сниматься в танцевальных видео-роликах или выбрать спортивное направление,
-                                    ездить на соревнования и достигать потрясных результатов!
+                                <div className="str_t">
+                                    <div className="stexr">
+                                        <p>
+                                            Необязательно приходить со своим партнером/партнершей.
+                                            Во время урока партнеры переходят по кругу от одной партнерши к другой, и потанцевать в паре есть возможность у каждого.
+                                        </p>
+                                        Бачата - это не просто танец, также это общение, флирт, подтянутое тело,
+                                        возможность уже через месяц зажигать на вечеринках или пойти дальше:
+                                        участвовать в шоу-номерах и сниматься в танцевальных видео-роликах или выбрать спортивное направление,
+                                        ездить на соревнования и достигать потрясных результатов!
 
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -88,10 +92,10 @@ export default class Tanec extends Component {
                     </Container>
                     <Container>
                         <div className="perednik">
-                            <h2 className="zagolovok2" id="5n">Позитивная тусовка</h2>
+                            <h2 className="zagolovok2 mb-5" id="5n">Позитивная тусовка</h2>
                             <div className="colu">
                                 <iframe src="https://vk.com/video_ext.php?oid=8968210&id=456239583&hash=817ebaf202d1ddd1" title="video4" width="640" height="360" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                                <div>
+                                <div className="str_t">
                                     <div className="stexr">
                                         <p>
                                             Много всего написано про психологию и танцы.
@@ -116,24 +120,26 @@ export default class Tanec extends Component {
                     </Container>
                     <Container>
                         <div className="perednik">
-                            <h2 className="zagolovok2" id="6n">Учим с 0 до Pro</h2>
+                            <h2 className="zagolovok2 mb-5" id="6n">Учим с 0 до Pro</h2>
                             <div className="colu">
-                                <div className="stexl">
-                                    <p>
-                                        Для начального уровня особенно важно получать удовольствие от процесса. А что бы понимать правильность техники, нужно практиковаться с теми, кто давно в теме.
-                                    </p>
-                                    <p>
-                                        1. Записывайте видео с уроков, что бы посмотреть, что улучшилось – на наших занятиях мы это предоставляем сами.
-                                    </p>
-                                    <p>
-                                        2. Потренируйте музыкальность, чувство ритма: танцуйте дома под любимые треки как хотите.
-                                    </p>
-                                    <p>
-                                        3. Приходите на уроки отдыхать, а не работать!
-                                    </p>
+                                <div className="str_t">
+                                    <div className="stexl">
+                                        <p>
+                                            Для начального уровня особенно важно получать удовольствие от процесса. А что бы понимать правильность техники, нужно практиковаться с теми, кто давно в теме.
+                                        </p>
+                                        <p>
+                                            1. Записывайте видео с уроков, что бы посмотреть, что улучшилось – на наших занятиях мы это предоставляем сами.
+                                        </p>
+                                        <p>
+                                            2. Потренируйте музыкальность, чувство ритма: танцуйте дома под любимые треки как хотите.
+                                        </p>
+                                        <p>
+                                            3. Приходите на уроки отдыхать, а не работать!
+                                        </p>
 
-                                    Ваша задача снять внутреннее напряжение и настроиться на позитив – а мы поможем приумножить хороший настрой и поставить хорошую технику.
+                                        Ваша задача снять внутреннее напряжение и настроиться на позитив – а мы поможем приумножить хороший настрой и поставить хорошую технику.
 
+                                    </div>
                                 </div>
                                 <div>
                                     <iframe title="video5" src="https://vk.com/video_ext.php?oid=69451431&id=456240271&hash=0b20601c0e7434a9" width="640" height="360" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
@@ -143,17 +149,19 @@ export default class Tanec extends Component {
                     </Container>
                     <Container>
                         <div className="perednik">
-                            <h2 className="zagolovok2" id="7n">Кардио-тренировка</h2>
+                            <h2 className="zagolovok2 mb-5" id="7n">Кардио-тренировка</h2>
                             <div className="colu">
                                 <iframe title="video6" src="https://vk.com/video_ext.php?oid=8968210&id=456239271&hash=a9dad2725731e0c7" width="640" height="360" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                                <div className="stexr">
-                                    <p>Танцы - это настоящая кардио-тренировка, при которой ещё и задействованы практически все группы мышц.
-                                        На каждом занятии можно потерять от 200 до 800 ккал за час!
-                                    </p>
-                                    <p>
-                                        Сбалансированная нагрузка - при стандартных занятиях невозможно перенапрячься или потянуть мышцу. На утро не болит тело, а наоборот оно полно сил и энергии!
-                                    </p>
-                                    А рекомендации по подготовке похожи - за час лучше не есть, на занятие взять бутылочку с водой. Будет жарко!
+                                <div className="str_t">
+                                    <div className="stexr">
+                                        <p>Танцы - это настоящая кардио-тренировка, при которой ещё и задействованы практически все группы мышц.
+                                            На каждом занятии можно потерять от 200 до 800 ккал за час!
+                                        </p>
+                                        <p>
+                                            Сбалансированная нагрузка - при стандартных занятиях невозможно перенапрячься или потянуть мышцу. На утро не болит тело, а наоборот оно полно сил и энергии!
+                                        </p>
+                                        А рекомендации по подготовке похожи - за час лучше не есть, на занятие взять бутылочку с водой. Будет жарко!
+                                    </div>
                                 </div>
                             </div>
                         </div>

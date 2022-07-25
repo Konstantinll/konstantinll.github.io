@@ -7,3 +7,14 @@
     background-image: url(https://github.com/Konstantinll/konstantinll.github.io/blob/master/src/Pictures/bg_picture/bg_first.jpg?raw=true);
     background-size: cover;
   }
+.zena_a{
+  font-size: smaller;
+  color:rgb(152, 152, 152);
+  text-decoration: line-through;
+  margin-left: 50px;
+}
+.zena_b{
+  font-weight: bolder;
+  font-size: larger;
+  color:#ff2400
+}

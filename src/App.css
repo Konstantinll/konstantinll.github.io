@@ -5,7 +5,7 @@
   padding: 2em;
   color: #fff;
 }
-.Navok{
+.Navok {
   height: 80px;
 }
 .zadnik {
@@ -24,24 +24,34 @@
 }
 .kart {
   display: flex;
-  height: 400px;
+  height: 700px;
   width: 350px;
-  padding: 30px;
+  padding-bottom: 30px;
   margin-top: 10vh;
   position: relative;
-  justify-content: center;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
   box-shadow: 0px 3px 10px 1px rgba(13, 202, 240, 0.5);
 }
+.kart1 {
+  display: flex;
+  height: 300px;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
 .kart2 {
-  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 500px;
   width: 600px;
   text-align: center;
   background-color: #fff;
-  padding: 30px;
-  margin-left: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  padding: 50px;
+  margin-left: 50px
 }
 .andrei {
   height: 500px;
@@ -72,11 +82,6 @@
   justify-content: space-between;
   align-items: left;
 }
-.colu6 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
 .centura {
   display: flex;
   flex-direction: column;
@@ -98,66 +103,113 @@
   font-size: 24px;
   font-family: Montserrat;
   text-align: center;
+  margin-bottom: 20px;
 }
 .zagolovok2 {
   text-align: center;
   font-size: 28px;
   font-family: Montserrat;
-  margin-bottom: 12vh;
 }
 .zagolovok3 {
   text-align: center;
   font-size: 18px;
   font-family: Montserrat;
 }
-.pstr{
+.f_text {
+  text-align: center;
+  width: 220px;
+  font-size: 20px;
+  font-family: Montserrat;
+}
+.pstr {
   padding-top: 5vh;
 }
-.texpa{
+.texpa {
   padding-bottom: 5vh;
 }
-.icotex{
+.str_t {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+.icotex {
   width: 200px;
   text-align: center;
   margin-top: 30px;
 }
-.stexl{ 
+.ico_vk {
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  background-image: url(https://github.com/Konstantinll/konstantinll.github.io/blob/master/src/Pictures/bg_icons/satisfaction.png?raw=true);
+}
+.stexl {
   border-right: 2px solid #0dcaf0;
   max-width: 400px;
+  padding-left: 20px;
   padding-right: 20px;
 }
-.stexr{
+.stexr {
   border-left: 2px solid #0dcaf0;
   max-width: 400px;
   padding-left: 20px;
+  padding-right: 20px;
 }
-.nali{
+.nali {
   color: #fff !important;
 }
-.nali:hover{
+.nali:hover {
   color: #0dcaf0 !important;
 }
 /* Ссылки и кнопки */
 .ac {
   color: #fff !important;
-  text-decoration:none
+  text-decoration: none
 }
-.ac:hover{
-  color:#0dcaf0 !important;
+.ac:hover {
+  color: #0dcaf0 !important;
 }
-.bat{
+.bat {
   padding: 0.8em 2em;
-  background-color:#0dcaf0;
+  background-color: #0dcaf0;
   border: 0px;
   box-shadow: 0px 3px 10px 1px rgba(13, 202, 240, 0.5);
+}
+.bat:hover {
+  background-color: #0dcaf0c8;
 }
 .bat:active {
   border: 0px;
   box-shadow: 0px 0px 0px 0px rgba(13, 202, 240, 0.5);
-  }
+}
+.bat_b {
+  width: 320px;
+  padding: 0.8em !important;
+  border-radius: 0px !important;
+  box-shadow: 0px 3px 10px 1px rgba(13, 202, 240, 0.5);
+}
+.bat_b:active {
+  width: 320px;
+  border-radius: 0px !important;
+  padding: 0.8em !important;
+  box-shadow: 0px 0px 0px 0px rgba(13, 202, 240, 0.5);
+}
+.bat_с {
+  color: black !important;
+  padding: 0.8em !important;
+  border-radius: 0px !important;
+  box-shadow: 0px 3px 10px 1px rgba(13, 202, 240, 0.5);
+}
+.bat_с:active {
+  border-radius: 0px !important;
+  padding: 0.8em !important;
+  box-shadow: 0px 0px 0px 0px rgba(13, 202, 240, 0.5);
+}
+.bat_inp {
+  border-radius: 0px !important;
+}
 .inp {
   width: 350px;
 }
 .deskriplog {
-  color:#0dcaf0
+  color: #0dcaf0
 }

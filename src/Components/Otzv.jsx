@@ -5,7 +5,7 @@ import { Carousel } from 'react-bootstrap'
 const Otzv = () => {
     return (
         <div className="perednik" id="9n">
-            <h2 className="zagolovok2">Отзывы</h2>
+            <h2 className="zagolovok2  mb-5">Отзывы</h2>
             <Carousel variant="dark">
                 <Carousel.Item>
                     <div className='otz_a'>

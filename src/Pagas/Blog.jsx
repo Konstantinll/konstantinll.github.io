@@ -11,7 +11,7 @@ export default class Blog extends Component {
             <div className="zadnik">
                 <Container className="pstr">
                     <div className="perednik">
-                        <h2 className="zagolovok2">Новости</h2>
+                        <h2 className="zagolovok2 mb-5">Новости</h2>
 
                         <div className="colu5">
                             <div className="block_blog_l">

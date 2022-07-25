@@ -4,9 +4,9 @@ import './Novznak.css'
 const Novznak = () => {
     return (
         <div className="perednik" id="4n">
-            <h2 className="zagolovok2">Новые знакомства</h2>
+            <h2 className="zagolovok2 mb-5">Новые знакомства</h2>
             <div className="colu">
-                <div>
+                <div className="str_t">
                     <div className="stexl">
                         <p>
                             Общение - ещё один бонус, который выгодно отличает танцы.

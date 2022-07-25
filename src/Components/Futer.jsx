@@ -15,7 +15,7 @@ export default class Futer extends Component {
                                 src='https://github.com/Konstantinll/konstantinll.github.io/blob/master/src/Pictures/bg_icons/logo.png?raw=true'
                                 height='100'
                                 width='100'
-                                className='d-inline-block align-top'
+                                className='d-inline-block align-top mb-3'
                                 alt='Logo'
                             />
                             <p>Школа бачаты</p>
@@ -37,7 +37,7 @@ export default class Futer extends Component {
                             <Nav className="colu2">
                                 <Nav.Link className="ac" href="/#/">Пробное занятие</Nav.Link>
                                 <Nav.Link className="ac" href="/#/prepod">Преподаватели</Nav.Link>
-                                <Nav.Link className="ac" href="/#/raspis">Расписание</Nav.Link>
+                                <Nav.Link className="ac" href="/#/abon">Абонементы</Nav.Link>
                                 <Nav.Link className="ac" href="/#/contacts">Контакты</Nav.Link>
                                 <Nav.Link className="ac" href="/#/blog">Блог</Nav.Link>
                             </Nav>

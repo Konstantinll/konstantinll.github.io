@@ -1,0 +1,11 @@
+.last_p {
+    height: 90vh;
+    width: 100%;
+    padding: 10vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-image: url(https://downloader.disk.yandex.ru/preview/8ca1dc71be0ca83c4065fbb3e79e77458bcb586ce0f43e2a6450c60ce7ff9705/62deee11/i-R8TLhn-J4emqq8t7t-BJ_wYA6d8GNfZSZZaW5wBXgVY13gYlMltpgLtL8c6fHtJKSCxnxiMTyb_92fR9kg6A%3D%3D?uid=0&filename=IMG_3917.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=1898x902);
+    background-position: 50% 50%;
+    background-size: cover;
+  }
