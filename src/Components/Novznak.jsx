@@ -3,8 +3,8 @@ import './Novznak.css'
 
 const Novznak = () => {
     return (
-        <div className="perednik">
-            <h2 className="zagolovok2" id="4n">Новые знакомства</h2>
+        <div className="perednik" id="4n">
+            <h2 className="zagolovok2">Новые знакомства</h2>
             <div className="colu">
                 <div>
                     <div className="stexl">

@@ -4,8 +4,8 @@ import './Znakomt.css'
 
 const Znakomt = () => {
     return (
-        <div className="perednik">
-            <h2 className="zagolovok2" id="8n">Знакомтесь</h2>
+        <div className="perednik" id="8n">
+            <h2 className="zagolovok2">Знакомтесь</h2>
             <div className="colu">
                 <div className="kart3">
                     <div className="lico1"></div>

@@ -16,21 +16,25 @@ export default class Tanec extends Component {
                 <div className="first">
                     <Container>
                         <div className="kart2">
-                            <h1 className="zagolovok1">Школа бачаты в Санкт-Петербурге<br /> Запишитесь на пробный танец в воскресенье</h1>
-                            <div className="colu">
-                                <p>
-                                    Всего за
-                                </p>
-                                
-                                <p>
-                                    200р
-                                </p>
-                                <p style={{ textDecoration: 'line-through' }} >
-                                    500р
-                                </p>
-                            </div>
-                            <button className="bat" type="submit">Записаться</button>
+                            <div className="colu6">
+                                <h1 className="zagolovok1">Школа бачаты в Санкт-Петербурге<br /> Запишитесь на пробный танец в воскресенье</h1>
 
+                                <div className="zagolovok3">
+                                    <div className="colu">
+                                        <div>
+                                            Всего за
+                                        </div>
+
+                                        <div style={{ color: '#ff2400' }}>
+                                            200р
+                                        </div>
+                                        <div style={{ textDecoration: 'line-through' }} >
+                                            500р
+                                        </div>
+                                    </div>
+                                </div>
+                                <button className="bat" type="submit">Записаться</button>
+                            </div>
                         </div>
                     </Container>
                 </div >
@@ -80,7 +84,7 @@ export default class Tanec extends Component {
                         <Iconsl />
                     </Container>
                     <Container>
-                       <Novznak />
+                        <Novznak />
                     </Container>
                     <Container>
                         <div className="perednik">
