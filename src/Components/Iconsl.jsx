@@ -7,7 +7,7 @@ const Iconsl = () => {
             <h2 className="zagolovok2  mb-5" id="3n">Польза от танцев с нами</h2>
             <div className="texpa">
                 <div className="colu">
-                    <div className="centura">
+                    <div className="centura mt-3">
                         <div className="profiyou"></div>
                         <div>
                             <p className="icotex">
@@ -15,7 +15,7 @@ const Iconsl = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="centura">
+                    <div className="centura mt-3">
                         <div className="znakom"></div>
                         <div>
                             <p className="icotex">
@@ -23,7 +23,7 @@ const Iconsl = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="centura">
+                    <div className="centura mt-3">
                         <div className="fitnes"></div>
                         <div>
                             <p className="icotex">

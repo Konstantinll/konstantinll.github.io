@@ -13,7 +13,9 @@ export default class Prepod extends Component {
                         <div className="colu">
                             <div className="andrei"></div>
 
-                            <div>
+                            <div className="kart4">
+
+                                <div className="zagolovok3">Андрей Васильев</div>
                                 <p>
                                     Танцы - несомненно, арт-терапия и поможет:<br />
                                     - Стать уверенней.<br />
@@ -23,10 +25,12 @@ export default class Prepod extends Component {
                                     - Внести разнообразие в жизнь.<br />
                                     И прочее...
                                 </p>
+
                             </div>
                         </div>
                         <div className="colu">
-                            <div>
+                            <div className="kart4">
+                                <div className="zagolovok3">Татьяна Чертушкина</div>
                                 <p>
                                     Танцы - несомненно, арт-терапия и поможет:<br />
                                     - Стать уверенней.<br />

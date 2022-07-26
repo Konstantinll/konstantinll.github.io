@@ -1,7 +1,8 @@
 .otz_a {
-    height: 400px;
+    height: 300px;
     padding-left: 100px;
     padding-right: 100px;
     display: 'flex';
     justify-content: 'center';
+    text-align: center;
 }

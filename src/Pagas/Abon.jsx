@@ -49,7 +49,7 @@ export default class Raspis extends Component {
                             <div className="kart">
                                 <div className="abon_c"></div>
                                 <div className="abon_text"> Занятие идёт около 2 часов. + в общий чат присылаем разбор видео с занятий, отвечаем на все вопросы и подробно в течении урока - мощная обратная связь!
-                                    Одно занятие в неделю. Можно пропустить 2 занятия - мы все люди</div>
+                                    Одно занятие в неделю. Можно пропустить 2 занятия - мы все люди.</div>
                                 <div className="f_text">
                                     <div className="colu">
                                         <div>

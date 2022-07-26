@@ -9,17 +9,19 @@ const Otzv = () => {
             <Carousel variant="dark">
                 <Carousel.Item>
                     <div className='otz_a'>
+
                         <img
-                            height='300px'
+                            width='800px'
                             src="https://github.com/Konstantinll/konstantinll.github.io/blob/master/src/Pictures/bg_feedback/bg_feedback_a.jpg?raw=true"
                             alt="otz1"
                         />
+
                     </div>
                 </Carousel.Item>
                 <Carousel.Item >
                     <div className='otz_a'>
                         <img
-                            height='300px'
+                            width='800px'
                             src="https://github.com/Konstantinll/konstantinll.github.io/blob/master/src/Pictures/bg_feedback/bg_feedback_b.jpg?raw=true"
                             alt="otz2"
                         />
@@ -28,7 +30,7 @@ const Otzv = () => {
                 <Carousel.Item >
                     <div className='otz_a'>
                         <img
-                            height='300px'
+                            width='800px'
                             src="https://github.com/Konstantinll/konstantinll.github.io/blob/master/src/Pictures/bg_feedback/bg_feedback_c.jpg?raw=true"
                             alt="otz3"
                         />
@@ -37,7 +39,7 @@ const Otzv = () => {
                 <Carousel.Item >
                     <div className='otz_a'>
                         <img
-                            height='300px'
+                            width='800px'
                             src="https://github.com/Konstantinll/konstantinll.github.io/blob/master/src/Pictures/bg_feedback/bg_feedback_d.jpg?raw=true"
                             alt="otz4"
                         />
@@ -46,7 +48,7 @@ const Otzv = () => {
                 <Carousel.Item >
                     <div className='otz_a'>
                         <img
-                            height='300px'
+                            width='800px'
                             src="https://github.com/Konstantinll/konstantinll.github.io/blob/master/src/Pictures/bg_feedback/bg_feedback_e.jpg?raw=true"
                             alt="otz5"
                         />

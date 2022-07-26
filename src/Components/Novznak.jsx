@@ -19,15 +19,15 @@ const Novznak = () => {
 
                     </div>
                 </div>
-                <div>
+                <div className='mt-3'>
                     <div className="colu">
                         <div className="znak1"></div>
                         <div className="znak2"></div>
                     </div>
                     <div className="colu">
-                        <div className="znak3"></div>
-                        <div className="znak4"></div>
-                        <div className="znak5"></div>
+                        <div className="znak3 mt-5 mb-5"></div>
+                        <div className="znak4 mt-5 mb-5"></div>
+                        <div className="znak5 mt-5 mb-5"></div>
                     </div>
                     <div className="colu">
                         <div className="znak6"></div>

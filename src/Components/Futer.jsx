@@ -10,7 +10,7 @@ export default class Futer extends Component {
             <div className="futer">
                 <Container>
                     <div className="colu3">
-                        <div className="colu2">
+                        <div className="colu3">
                             <img
                                 src='https://github.com/Konstantinll/konstantinll.github.io/blob/master/src/Pictures/bg_icons/logo.png?raw=true'
                                 height='100'
@@ -18,9 +18,12 @@ export default class Futer extends Component {
                                 className='d-inline-block align-top mb-3'
                                 alt='Logo'
                             />
-                            <p>Школа бачаты</p>
-                            <p>в Санкт‑Петербурге</p>
-                            <p>2022год©</p>
+                            <div className="mx-3">
+                                <p>Школа бачаты</p>
+                                <p>в Санкт‑Петербурге</p>
+                                <p>2022год©</p>
+                            </div>
+
                         </div>
                         <div className="colu2">
                             <a className="ac" href="/#1n">На занятии Вы узнаете</a>
@@ -42,17 +45,10 @@ export default class Futer extends Component {
                                 <Nav.Link className="ac" href="/#/blog">Блог</Nav.Link>
                             </Nav>
                         </div>
-                        <div className="colu2">
-                            <p>
-                                Телефон для записи:
-                            </p>
-                            <p>
-                                +7 (921)975-20-25
-                            </p>
-                            <div className="colu4">
-                                <div className="icvk"></div>
-                                <div className="icwu"></div>
-                            </div>
+                        <div className="colu4">
+                            <div className="ico_tele"></div>
+                            <div className="ico_what mt-3"></div>
+                            <div className="ico_vk mt-3"></div>
                         </div>
                     </div>
                 </Container>
