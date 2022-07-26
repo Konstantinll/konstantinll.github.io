@@ -85,11 +85,12 @@
   align-items: center;
 }
 .colu4 {
+  width: 200px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  text-align: right;
-  align-items: right;
+  text-align: center;
+  align-items: center;
 }
 .colu5 {
   display: flex;

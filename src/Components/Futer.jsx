@@ -47,8 +47,8 @@ export default class Futer extends Component {
                         </div>
                         <div className="colu4">
                             <div className="ico_tele"></div>
-                            <div className="ico_what mt-3"></div>
-                            <div className="ico_vk mt-3"></div>
+                            <div className="ico_what mt-4"></div>
+                            <div className="ico_vk mt-4"></div>
                         </div>
                     </div>
                 </Container>
