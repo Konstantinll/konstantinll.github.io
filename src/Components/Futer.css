@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     color: #fff;
   }
 .colu3 {
@@ -10,4 +10,15 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: left;
+  }
+  @media screen and (max-width: 840px) {
+    .colu3{
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .colu2{
+      margin-bottom: 30px;
+    }
   }

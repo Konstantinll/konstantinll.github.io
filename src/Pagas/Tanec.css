@@ -18,3 +18,8 @@
   font-size: larger;
   color:#ff2400
 }
+@media screen and (max-width: 840px) {
+  .first {
+    padding: 0px;
+  }
+}

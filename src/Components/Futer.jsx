@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Container } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import './Futer.css';
-import Ruters from "./Ruters";
 
 export default class Futer extends Component {
     render() {

@@ -5,19 +5,22 @@ import Iconsl from "../Components/Iconsl";
 import Lasts from "../Components/Lasts";
 import Novznak from "../Components/Novznak";
 import Otzv from "../Components/Otzv";
+import Popap_mod from "../Components/Popap_mod";
 import Znakomt from "../Components/Znakomt";
 import './Tanec.css';
 
 
 export default class Tanec extends Component {
     render() {
+
         return (
             <div>
+
                 <div className="first">
                     <Container>
                         <div className="kart2">
 
-                            <h1 className="zagolovok1">Школа бачаты в Санкт-Петербурге<br /> Запишитесь на пробный танец в воскресенье</h1>
+                            <h1 className="zagolovok1">Школа бачаты<br />в Санкт-Петербурге<br />Запишитесь на пробный танец<br />в воскресенье</h1>
                             <div>Пробное занятие отличный вариант для тех, кто хочет попробовать танцевать бачату. Приходи на пробное занятие и за 2 часа ты точно поймёшь твой ли это танец!</div>
                             <div className="f_text">
                                 <div className="colu">
@@ -35,7 +38,7 @@ export default class Tanec extends Component {
                                 </div>
                             </div>
                             <div>
-                                <button className="bat" type="submit">Записаться</button>
+                                <Popap_mod />
                             </div>
                         </div>
                     </Container>
@@ -46,27 +49,9 @@ export default class Tanec extends Component {
                         <div className="perednik">
                             <h2 className="zagolovok2  mb-5" id="2n">Также на наши занятия</h2>
                             <div className="colu">
-                                <div style={{ width: '800px' }}>
-                                    <Carousel className="mt-3" variant="dark">
-                                        <Carousel.Item >
-                                            <div style={{ height: '55vh', display: 'flex', justifyContent: 'center' }}>
-                                                <iframe title="video1" src="https://vk.com/video_ext.php?oid=69451431&id=456239879&hash=c9536c998a2e6385" width="535" height="300" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                                            </div>
-
-
-                                        </Carousel.Item>
-                                        <Carousel.Item >
-                                            <div style={{ height: '55vh', display: 'flex', justifyContent: 'center' }}>
-                                                <iframe title="video2" src="https://vk.com/video_ext.php?oid=69451431&id=456239875&hash=a8ff085df9e2bac9" width="535" height="300" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                                            </div>
-                                        </Carousel.Item>
-                                        <Carousel.Item >
-                                            <div style={{ height: '55vh', display: 'flex', justifyContent: 'center' }}>
-                                                <iframe title="video3" class="embed-responsive-item" src="https://vk.com/video_ext.php?oid=69451431&id=456239889&hash=addcac87543135f2" width="535" height="300" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                                            </div>
-                                        </Carousel.Item>
-
-                                    </Carousel>
+                                <div className="colu2">
+                                    <iframe title="video2" className="vidos" src="https://vk.com/video_ext.php?oid=69451431&id=456239875&hash=a8ff085df9e2bac9" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                                    <iframe title="video3" class="vidos mt-4" src="https://vk.com/video_ext.php?oid=69451431&id=456239889&hash=addcac87543135f2" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
                                 </div>
                                 <div className="str_t">
                                     <div className="stexr">
@@ -95,7 +80,7 @@ export default class Tanec extends Component {
                             <h2 className="zagolovok2 mb-5" id="5n">Позитивная тусовка</h2>
                             <div className="colu">
                                 <div className="mt-3">
-                                    <iframe src="https://vk.com/video_ext.php?oid=8968210&id=456239583&hash=817ebaf202d1ddd1" title="video4" width="535" height="300" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                                    <iframe className="vidos" src="https://vk.com/video_ext.php?oid=8968210&id=456239583&hash=817ebaf202d1ddd1" title="video4" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
                                 </div>
                                 <div className="str_t">
                                     <div className="stexr">
@@ -139,7 +124,7 @@ export default class Tanec extends Component {
                                 </div>
 
                                 <div className="mt-3">
-                                    <iframe title="video5" src="https://vk.com/video_ext.php?oid=69451431&id=456240271&hash=0b20601c0e7434a9" width="535" height="300" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                                    <iframe title="video5" className="vidos" src="https://vk.com/video_ext.php?oid=69451431&id=456240271&hash=0b20601c0e7434a9" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -149,7 +134,7 @@ export default class Tanec extends Component {
                             <h2 className="zagolovok2 mb-5" id="7n">Кардио-тренировка</h2>
                             <div className="colu">
                                 <div className="mt-3">
-                                    <iframe title="video6" src="https://vk.com/video_ext.php?oid=8968210&id=456239271&hash=a9dad2725731e0c7" width="535" height="300" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                                    <iframe title="video6" className="vidos" src="https://vk.com/video_ext.php?oid=8968210&id=456239271&hash=a9dad2725731e0c7" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
                                 </div>
                                 <div className="str_t">
                                     <div className="stexr">

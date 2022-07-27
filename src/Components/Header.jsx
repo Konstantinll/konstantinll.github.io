@@ -22,13 +22,13 @@ export default class Header extends Component {
               </div>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls='resposive-navbar-nav' />
-            <Navbar.Collapse id='resposive-navbar-nav'>
+            <Navbar.Collapse id='resposive-navbar-nav' className="bg_nav">
               <Nav className="justify-content-center flex-grow-1">
-                <Nav.Link className="nali" href="/#/">Пробное занятие</Nav.Link>
-                <Nav.Link className="nali" href="/#/prepod">Преподаватели</Nav.Link>
-                <Nav.Link className="nali" href="/#/abon">Абонементы</Nav.Link>
-                <Nav.Link className="nali" href="/#/contacts">Контакты</Nav.Link>
-                <Nav.Link className="nali" href="/#/blog">Блог</Nav.Link>
+                <Nav.Link className="nali martg" href="/#/">Пробное занятие</Nav.Link>
+                <Nav.Link className="nali martg" href="/#/prepod">Преподаватели</Nav.Link>
+                <Nav.Link className="nali martg" href="/#/abon">Абонементы</Nav.Link>
+                <Nav.Link className="nali martg" href="/#/contacts">Контакты</Nav.Link>
+                <Nav.Link className="nali martg" href="/#/blog">Блог</Nav.Link>
               </Nav>
               <Form className="d-flex inp">
                 <FormControl
