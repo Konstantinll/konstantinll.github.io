@@ -45,9 +45,15 @@ export default class Futer extends Component {
                             </Nav>
                         </div>
                         <div className="colu4">
-                            <div className="ico_tele"></div>
+                            <a className="normal_link" href="tel:+7(921)975-20-25" target='_blank'>
+                                <div className="ico_tele"></div>
+                            </a>
+                            <a className="normal_link" href="https://wa.me/7(921)975-20-25" target='_blank'>
                             <div className="ico_what mt-4"></div>
-                            <div className="ico_vk mt-4"></div>
+                            </a>
+                            <a href="https://vk.com/pionerskaya_bachata_spb" target='_blank'>
+                                <div className="ico_vk mt-4"></div>
+                            </a>
                         </div>
                     </div>
                 </Container>

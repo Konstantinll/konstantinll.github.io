@@ -56,7 +56,7 @@ const Iconsf = () => {
             <div className="centura">
                 <div className="more"></div>
                 <div className="icotex">
-                    И много чего ещё интересного и полезного!
+                        И много чего ещё интересного и полезного!                   
                 </div>
             </div>
         </div>

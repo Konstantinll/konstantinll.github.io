@@ -37,17 +37,17 @@ const Iconsl = () => {
                 <div className="centura">
                     <div className="profi"></div>
                     <div className="icotex">
-
+                    <p>
                         Учат профессионалы с опытом 15лет +
-
+                        </p>
                     </div>
                 </div>
                 <div className="centura">
                     <div className="pozitiv"></div>
                     <div className="icotex">
-
+                    <p>
                         Позитивная тусовка
-
+                        </p>
                     </div>
                 </div>
             </div>
