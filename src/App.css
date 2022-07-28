@@ -287,6 +287,9 @@
   }
 }
 @media screen and (max-width: 480px) {
+  .poll_b{
+    width: 280px;
+  }
   .stexl {
     padding-left: 10px;
     padding-right: 10px;

@@ -34,19 +34,19 @@ const Iconsl = () => {
                 </div>
             </div>
             <div className="colu">
-                <div className="centura">
+                <div className="centura mt-3">
                     <div className="profi"></div>
                     <div className="icotex">
-                    <p>
-                        Учат профессионалы с опытом 15лет +
+                        <p>
+                            Учат профессионалы с опытом 15лет +
                         </p>
                     </div>
                 </div>
-                <div className="centura">
+                <div className="centura mt-3">
                     <div className="pozitiv"></div>
                     <div className="icotex">
-                    <p>
-                        Позитивная тусовка
+                        <p>
+                            Позитивная тусовка
                         </p>
                     </div>
                 </div>
