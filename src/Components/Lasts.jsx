@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import './Lasts.css'
+import Popap_mod from './Popap_mod'
 
 const Lasts = () => {
     return (
@@ -25,7 +26,7 @@ const Lasts = () => {
                         </div>
                     </div>
                     <div>
-                        <button className='bat'>Записаться</button>
+                        <Popap_mod />
                     </div>
                 </div>
             </Container>

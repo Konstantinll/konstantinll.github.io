@@ -21,17 +21,17 @@ const Novznak = () => {
                 </div>
                 <div className='mt-3'>
                     <div className="colu">
-                        <div className="znak1"></div>
-                        <div className="znak2"></div>
+                        <div className="znak1 mb-5"></div>
+                        <div className="znak2 mb-5"></div>
                     </div>
                     <div className="colu">
-                        <div className="znak3 mt-5 mb-5"></div>
-                        <div className="znak4 mt-5 mb-5"></div>
-                        <div className="znak5 mt-5 mb-5"></div>
+                        <div className="znak3 mb-5"></div>
+                        <div className="znak4 mb-5"></div>
+                        <div className="znak5 mb-5"></div>
                     </div>
                     <div className="colu">
-                        <div className="znak6"></div>
-                        <div className="znak7"></div>
+                        <div className="znak6 mb-5"></div>
+                        <div className="znak7 mb-5"></div>
                     </div>
                 </div>
             </div>

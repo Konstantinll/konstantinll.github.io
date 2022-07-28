@@ -12,13 +12,19 @@ const Popap_mod = () => {
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton></Modal.Header>
                 <Modal.Body>
-                    <Form style={{ height: '300px' }}>
-                        <Form.Group controlId='formName'>
-                            <Form.Control type="name" placeholder="Введите имя" />
-                        </Form.Group>
-                        <Form.Group controlId='formPhone'>
-                            <Form.Control type="phone" placeholder="+7(___)-__-__" />
-                        </Form.Group>
+                    <Form className='popup_m'>
+                        <div className="zagolovok3">
+                            <p>Оставьте контактный телефон</p>
+                            мы свяжемся с вами в ближайшее время
+                        </div>
+                        <div>
+                            <Form.Group className='mb-2' controlId='formName'>
+                                <Form.Control className='bat_inp' type="name" placeholder="Введите имя" />
+                            </Form.Group>
+                            <Form.Group controlId='formPhone'>
+                                <Form.Control className='bat_inp' type="phone" placeholder="+7(___)-__-__" />
+                            </Form.Group>
+                        </div>
                         <button type='submit' className="bat">Записаться</button>
                     </Form>
                 </Modal.Body>

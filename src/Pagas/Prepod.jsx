@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Container } from "react-bootstrap";
+import Popap_mod from "../Components/Popap_mod";
 import './Prepod.css';
 
 
@@ -71,7 +72,7 @@ export default class Prepod extends Component {
                             </div>
 
                             <div>
-                                <button className="bat" type="submit">Записаться</button>
+                                <Popap_mod />
                             </div>
                         </div>
                         <div>

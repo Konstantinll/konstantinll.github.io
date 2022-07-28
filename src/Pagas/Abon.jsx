@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Container } from 'react-bootstrap'
+import Popap_mod from "../Components/Popap_mod";
 import './Abon.css';
 
 
@@ -26,7 +27,7 @@ export default class Raspis extends Component {
                                     </div>
                                 </div>
                                 <div>
-                                    <button className="bat" variant="outline-info">Записаться</button>
+                                    <Popap_mod />
                                 </div>
                             </div>
                             <div className="kart mt-5">
@@ -43,7 +44,7 @@ export default class Raspis extends Component {
                                     </div>
                                 </div>
                                 <div>
-                                    <button className="bat" variant="outline-info">Записаться</button>
+                                    <Popap_mod />
                                 </div>
                             </div>
                             <div className="kart mt-5">
@@ -61,7 +62,7 @@ export default class Raspis extends Component {
                                     </div>
                                 </div>
                                 <div>
-                                    <button className="bat" variant="outline-info">Записаться</button>
+                                    <Popap_mod />
                                 </div>
                             </div>
                         </div>
@@ -80,7 +81,7 @@ export default class Raspis extends Component {
                                     </div>
                                 </div>
                                 <div>
-                                    <button className="bat" variant="outline-info">Записаться</button>
+                                    <Popap_mod />
                                 </div>
                             </div>
                             <div className="kart mt-5">
@@ -97,7 +98,7 @@ export default class Raspis extends Component {
                                     </div>
                                 </div>
                                 <div>
-                                    <button className="bat" variant="outline-info">Записаться</button>
+                                    <Popap_mod />
                                 </div>
                             </div>
                         </div>

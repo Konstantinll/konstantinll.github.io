@@ -20,6 +20,7 @@
 }
 @media screen and (max-width: 840px) {
   .first {
+    height: 110vh;
     padding: 0px;
   }
 }
